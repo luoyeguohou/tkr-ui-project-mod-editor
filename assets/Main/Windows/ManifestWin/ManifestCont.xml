@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_g5ao" name="n0" xy="138,104" size="1643,871" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_g5ao" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1539,132">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n2_g5ao" name="n2" xy="506,135" size="398,100" type="rect"/>
+    <graph id="n3_g5ao" name="n3" xy="503,264" size="398,100" type="rect"/>
+    <text id="n4_g5ao" name="n4" xy="232,151" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="Mod id"/>
+    <text id="n5_g5ao" name="txtModID" xy="521,150" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="输入mod id......"/>
+    <text id="n6_g5ao" name="n6" xy="232,280" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="Version"/>
+    <text id="n7_g5ao" name="txtVersion" xy="522,280" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="输入Version......"/>
+    <text id="n8_g5ao" name="n8" xy="232,412" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="展示名字"/>
+    <graph id="n11_g5ao" name="n11" xy="507,396" size="398,100" type="rect"/>
+    <text id="n12_g5ao" name="txtDisplayName" xy="526,412" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="输入名字......"/>
+    <text id="n13_g5ao" name="n13" xy="224,547" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="描述"/>
+    <graph id="n14_g5ao" name="n14" xy="503,540" size="831,388" type="rect"/>
+    <text id="n15_g5ao" name="txtDesc" xy="520,557" size="796,350" fontSize="38" autoSize="none" text="" input="true" prompt="输入描述......"/>
+    <component id="n16_g5ao" name="btnValidate" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1546,715">
+      <Button title="校验"/>
+    </component>
+    <component id="n17_g5ao" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1545,809">
+      <Button title="保存"/>
+    </component>
+    <text id="n18_ohbk" name="n18" xy="910,151" size="214,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="作者"/>
+    <graph id="n19_ohbk" name="n19" xy="1135,140" size="398,100" type="rect"/>
+    <text id="n20_ohbk" name="txtWriter" xy="1157,150" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="输入作者 id......"/>
+    <text id="n21_xphn" name="n21" xy="916,288" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="依赖mod："/>
+    <component id="n22_xphn" name="btnAddNewDep" src="rvrn2" fileName="Comps/NormalButton.xml" xy="942,371">
+      <Button title="新增"/>
+    </component>
+    <list id="n24_xphn" name="lstDep" xy="1184,282" size="567,232" overflow="scroll" lineGap="4" defaultItem="ui://ovrc43joxphn20" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

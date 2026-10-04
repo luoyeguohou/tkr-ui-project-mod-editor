@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1507,121">
+  <displayList>
+    <graph id="n5_g5ao" name="n5" xy="0,0" size="1507,121" type="rect"/>
+    <graph id="n9_g5ao" name="n9" xy="1123,11" size="187,100" type="rect" fillColor="#ffcccccc"/>
+    <text id="n10_g5ao" name="txtAmount" xy="1138,23" size="157,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="num......"/>
+    <component id="n11_g5ao" name="btnRemove" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1347,18" size="124,76">
+      <Button title="移除"/>
+    </component>
+    <component id="n12_g5ao" name="comboCard" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="807,29">
+      <ComboBox title="攻击" visibleItemCount="10"/>
+    </component>
+    <component id="n13_g5ao" name="comboSuit" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="487,30">
+      <ComboBox title="黑桃" visibleItemCount="10"/>
+    </component>
+    <graph id="n14_g5ao" name="n14" xy="172,11" size="187,100" type="rect" fillColor="#ffcccccc"/>
+    <text id="n15_g5ao" name="txtNum" xy="187,23" size="157,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="num......"/>
+    <text id="n16_g5ao" name="n16" xy="20,29" size="144,66" fontSize="38" autoSize="shrink" text="点数"/>
+    <text id="n17_g5ao" name="n17" xy="364,33" size="110,66" fontSize="38" autoSize="shrink" text="花色"/>
+    <text id="n18_g5ao" name="n18" xy="677,28" size="110,66" fontSize="38" autoSize="shrink" text="卡牌"/>
+    <text id="n19_g5ao" name="n19" xy="983,29" size="135,66" fontSize="38" autoSize="shrink" text="多少张"/>
+  </displayList>
+</component>

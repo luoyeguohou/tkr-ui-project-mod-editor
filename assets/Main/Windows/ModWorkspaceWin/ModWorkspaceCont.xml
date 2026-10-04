@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="ctrlSaveState" pages="0,saved,1,unsaved" selected="1"/>
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="104,46" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_on8a" name="txtModID" xy="206,80" size="517,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="Mod ID：{id=core.skill.rage }"/>
+    <component id="n21_on8a" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1073,841">
+      <Button title="保存"/>
+    </component>
+    <text id="n22_on8a" name="txtVersion" xy="770,75" size="334,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="Version：{version=v0.0.1 }"/>
+    <component id="n23_on8a" name="btnNavContent" src="rvrn2" fileName="Comps/NormalButton.xml" xy="254,218">
+      <Button title="内容浏览器"/>
+    </component>
+    <component id="n24_on8a" name="btnNavManifest" src="rvrn2" fileName="Comps/NormalButton.xml" xy="254,321">
+      <Button title="Mod 信息"/>
+    </component>
+    <component id="n25_on8a" name="btnNavLocalization" src="rvrn2" fileName="Comps/NormalButton.xml" xy="248,425">
+      <Button title="本地化"/>
+    </component>
+    <component id="n26_on8a" name="btnNavValidation" src="rvrn2" fileName="Comps/NormalButton.xml" xy="246,531">
+      <Button title="校验"/>
+    </component>
+    <component id="n27_on8a" name="btnNavPublish" src="rvrn2" fileName="Comps/NormalButton.xml" xy="255,638">
+      <Button title="打包发布"/>
+    </component>
+    <text id="n29_on8a" name="n21" xy="532,841" size="517,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="*有未保存的修改">
+      <gearDisplay controller="ctrlSaveState" pages="1"/>
+    </text>
+  </displayList>
+</component>

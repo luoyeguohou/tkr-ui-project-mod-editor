@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="showRelation" pages="0,,1," selected="0"/>
+  <controller name="shouNum" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="87,61" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1616,77">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n2_c26g" name="n2" xy="714,78" size="428,100" type="rect"/>
+    <text id="n3_c26g" name="txtID" xy="724,96" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="ID......"/>
+    <text id="n4_c26g" name="n20" xy="134,95" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <text id="n12_c26g" name="n203" xy="132,225" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="选择者："/>
+    <component id="n13_c26g" name="comboChooser" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="382,225" size="249,73">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n14_c26g" name="n204" xy="129,337" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="关系：">
+      <gearDisplay controller="showRelation" pages="1"/>
+    </text>
+    <component id="n15_c26g" name="comboRelation" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="386,338" size="249,73">
+      <gearDisplay controller="showRelation" pages="1"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n16_c26g" name="n205" xy="138,441" size="176,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="最大数：">
+      <gearDisplay controller="shouNum" pages="1"/>
+    </text>
+    <text id="n17_c26g" name="n206" xy="142,560" size="176,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="最小数：">
+      <gearDisplay controller="shouNum" pages="1"/>
+    </text>
+    <graph id="n18_c26g" name="n18" xy="382,436" size="237,100" type="rect">
+      <gearDisplay controller="shouNum" pages="1"/>
+    </graph>
+    <text id="n19_c26g" name="txtMinCount" xy="401,450" size="207,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="Num......">
+      <gearDisplay controller="shouNum" pages="1"/>
+    </text>
+    <graph id="n20_c26g" name="n20123" xy="381,549" size="237,100" type="rect">
+      <gearDisplay controller="shouNum" pages="1"/>
+    </graph>
+    <text id="n21_c26g" name="txtMaxCount" xy="396,565" size="207,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="Num......">
+      <gearDisplay controller="shouNum" pages="1"/>
+    </text>
+    <text id="n22_c26g" name="n208" xy="150,683" size="176,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="允许选自己："/>
+    <text id="n23_c26g" name="n209" xy="166,792" size="176,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="允许选死亡角色："/>
+    <component id="n25_c26g" name="btnAllowSelf" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="359,688"/>
+    <component id="n26_c26g" name="btnAllowDead" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="381,797"/>
+    <component id="n38_c26g" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1585,902">
+      <Button title="保存"/>
+    </component>
+    <text id="n39_lnem" name="txtIDFront" xy="409,95" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+  </displayList>
+</component>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="86,61" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_on8a" name="n21" xy="118,80" size="152,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="人物ID："/>
+    <graph id="n3_on8a" name="n3" xy="369,188" size="428,100" type="rect"/>
+    <text id="n4_on8a" name="txtName" xy="384,202" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="名字 i18n key......"/>
+    <text id="n6_on8a" name="n201" xy="130,197" size="221,72" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="名字文本ID："/>
+    <graph id="n7_on8a" name="n7" xy="346,327" size="430,161" type="rect"/>
+    <text id="n8_on8a" name="txtDesc" xy="361,341" size="401,138" fontSize="38" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="内容 i18n key......"/>
+    <text id="n9_on8a" name="n202" xy="110,321" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="描述文本ID："/>
+    <component id="n21_on8a" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1596,903">
+      <Button title="保存"/>
+    </component>
+    <graph id="n22_ee8s" name="n22" xy="580,70" size="428,100" type="rect"/>
+    <text id="n23_ee8s" name="txtID" xy="593,83" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="输入 id......"/>
+    <component id="n24_q90d" name="btnEnabled" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="1494,79"/>
+    <text id="n25_q90d" name="n215" xy="1324,83" size="153,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="启用："/>
+    <component id="n27_l8mu" name="comboStartingDeck" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="366,495" size="362,73">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n29_l8mu" name="n204" xy="113,490" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="初始牌库："/>
+    <text id="n30_l8mu" name="n203" xy="863,545" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="技能奖励池子："/>
+    <text id="n31_l8mu" name="n205" xy="829,211" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="卡牌奖励池子："/>
+    <list id="n32_l8mu" name="lstCardPools" xy="1105,216" size="678,300" overflow="scroll" defaultItem="ui://ovrc43jo130mm21"/>
+    <list id="n33_l8mu" name="lstSkillPools" xy="1112,540" size="678,300" overflow="scroll" defaultItem="ui://ovrc43jo130mm21">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n34_l8mu" name="btnAddCardPool" src="rvrn2" fileName="Comps/NormalButton.xml" xy="853,310">
+      <Button title="增加卡牌池"/>
+    </component>
+    <component id="n35_l8mu" name="btnRemoveCardPool" src="rvrn2" fileName="Comps/NormalButton.xml" xy="849,409">
+      <Button title="删除卡牌池"/>
+    </component>
+    <component id="n36_l8mu" name="btnAddSkillPool" src="rvrn2" fileName="Comps/NormalButton.xml" xy="893,646">
+      <Button title="增加技能池"/>
+    </component>
+    <component id="n37_l8mu" name="btnRemoveSkillPool" src="rvrn2" fileName="Comps/NormalButton.xml" xy="889,733">
+      <Button title="删除技能池"/>
+    </component>
+    <text id="n38_l8mu" name="n206" xy="110,601" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="初始技能："/>
+    <component id="n39_l8mu" name="btnAddStartSkill" src="rvrn2" fileName="Comps/NormalButton.xml" xy="125,686">
+      <Button title="增加初始技能"/>
+    </component>
+    <component id="n40_l8mu" name="btnRemoveStartSkill" src="rvrn2" fileName="Comps/NormalButton.xml" xy="125,771">
+      <Button title="删除初始技能"/>
+    </component>
+    <list id="n41_l8mu" name="lstStartingSkill" xy="351,608" size="531,366" overflow="scroll" defaultItem="ui://ovrc43joee8s1d">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n42_lnem" name="txtIDFront" xy="306,88" size="263,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+  </displayList>
+</component>

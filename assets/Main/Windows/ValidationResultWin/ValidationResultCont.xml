@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="104,45" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_c26g" name="txtSummary" xy="178,100" size="763,66" fontSize="38" vars="true" autoSize="none" singleLine="true" text="共{total=10}个问题，{error=5}个报错，{warning=5}个警告。"/>
+    <component id="n3_msc0" name="btnValidate" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1052,88">
+      <Button title="重新检查"/>
+    </component>
+    <list id="n6_msc0" name="lstResults" xy="181,202" size="1613,642" overflow="scroll" defaultItem="ui://ovrc43jomsc01g" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_msc0" name="btnOpen" src="rvrn2" fileName="Comps/NormalButton.xml" xy="888,885">
+      <Button title="打开"/>
+    </component>
+  </displayList>
+</component>

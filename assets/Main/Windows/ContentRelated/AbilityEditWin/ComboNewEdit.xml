@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1384,73" extention="Button">
+  <displayList>
+    <component id="n25_c26g" name="btnNewEffectGraph" src="rvrn2" fileName="Comps/NormalButton.xml" xy="667,6" size="177,63">
+      <Button title="新建"/>
+    </component>
+    <component id="n20_c26g" name="comboEffectGraph" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="260,1" size="386,72">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n15_c26g" name="title" xy="0,0" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="效果："/>
+    <component id="n39_c26g" name="btnEditEffectGraph" src="rvrn2" fileName="Comps/NormalButton.xml" xy="861,11" size="159,53">
+      <Button title="编辑"/>
+    </component>
+    <graph id="n40_ndpb" name="n40" xy="1029,7" size="351,58" type="rect"/>
+    <text id="n41_ndpb" name="txtFilter" xy="1033,10" size="343,52" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="Filter......"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1459,78">
+  <displayList>
+    <component id="n29_po4w" name="combo" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="0,9" size="806,61">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n30_po4w" name="btnDelete" src="rvrn2" fileName="Comps/NormalButton.xml" xy="969,1" size="123,76">
+      <Button title="删除"/>
+    </component>
+    <component id="n32_po4w" name="btnEdit" src="rvrn2" fileName="Comps/NormalButton.xml" xy="823,0" size="131,76">
+      <Button title="编辑"/>
+    </component>
+    <graph id="n33_ndpb" name="n33" xy="1102,10" size="351,58" type="rect"/>
+    <text id="n34_ndpb" name="txtFilter" xy="1106,13" size="343,52" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="Filter......"/>
+  </displayList>
+</component>

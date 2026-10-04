@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="601,100">
+  <displayList>
+    <component id="n43_130mm" name="combo" src="ee8s1d" fileName="Comps/ComboBoxButton.xml" xy="0,1" size="414,98"/>
+    <graph id="n44_130mm" name="n44" xy="428,0" size="173,100" type="rect"/>
+    <text id="n45_130mm" name="txtNum" xy="443,14" size="143,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="初始数量......"/>
+  </displayList>
+</component>

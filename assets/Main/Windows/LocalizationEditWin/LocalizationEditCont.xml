@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="104,46" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n3_c26g" name="n3" xy="134,67" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="当前语言："/>
+    <component id="n4_c26g" name="comboCurrLanguage" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="414,71" size="229,61">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n8_c26g" name="n8" xy="665,61" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="新增语言："/>
+    <component id="n9_c26g" name="comboNewLanguage" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="942,67">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n10_c26g" name="btnAddLocale" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1139,62">
+      <Button title="增加语言"/>
+    </component>
+    <component id="n11_c26g" name="n11" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1363,61">
+      <Button title="删除语言"/>
+    </component>
+    <graph id="n12_c26g" name="n12" xy="404,163" size="398,100" type="rect"/>
+    <text id="n13_c26g" name="n13" xy="130,179" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="搜索文本ID"/>
+    <text id="n14_c26g" name="txtModID" xy="420,178" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="输入 id......"/>
+    <text id="n15_c26g" name="n15" xy="835,169" size="260,74" fontSize="38" align="center" vAlign="middle" autoSize="none" text="只看未翻译"/>
+    <component id="n16_c26g" name="btnShowMissingOnly" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="1102,171"/>
+    <list id="n20_c26g" name="lstTextIds" xy="143,274" size="1671,603" overflow="scroll" defaultItem="ui://ovrc43joc26g1f" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_c26g" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1580,904">
+      <Button title="保存"/>
+    </component>
+  </displayList>
+</component>

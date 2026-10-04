@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ovrc43jo">
+  <resources>
+    <component id="rvrn2" name="NormalButton.xml" path="/Comps/"/>
+    <component id="g5ao3" name="MainWin.xml" path="/Windows/MainWin/" exported="true"/>
+    <component id="g5ao4" name="MainCont.xml" path="/Windows/MainWin/"/>
+    <component id="g5ao5" name="ModListItem.xml" path="/Windows/MainWin/"/>
+    <component id="g5ao6" name="ManifestWin.xml" path="/Windows/ManifestWin/" exported="true"/>
+    <component id="g5ao7" name="ManifestCont.xml" path="/Windows/ManifestWin/"/>
+    <component id="g5ao8" name="ContentBrowserWin.xml" path="/Windows/ContentRelated/ContentBrowserWin/" exported="true"/>
+    <component id="g5ao9" name="ContentBrowserCont.xml" path="/Windows/ContentRelated/ContentBrowserWin/"/>
+    <component id="g5aoa" name="CardEditWin.xml" path="/Windows/ContentRelated/CardEditWin/" exported="true"/>
+    <component id="g5aob" name="CardEditCont.xml" path="/Windows/ContentRelated/CardEditWin/"/>
+    <component id="g5aoc" name="ComboBox1_item.xml" path="/Comps/"/>
+    <component id="g5aod" name="ComboBox1_popup.xml" path="/Comps/"/>
+    <component id="g5aoe" name="ComboBox1.xml" path="/Comps/" exported="true"/>
+    <component id="g5aof" name="TagItem.xml" path="/Windows/ContentRelated/CardEditWin/"/>
+    <component id="g5aog" name="SingleChooseButton.xml" path="/Comps/"/>
+    <component id="g5aoh" name="ContentItem.xml" path="/Windows/ContentRelated/ContentBrowserWin/"/>
+    <component id="g5aoi" name="DeckEditWin.xml" path="/Windows/ContentRelated/DeckEditWin/" exported="true"/>
+    <component id="g5aoj" name="DeckEditCont.xml" path="/Windows/ContentRelated/DeckEditWin/"/>
+    <component id="g5aok" name="DeckItem.xml" path="/Windows/ContentRelated/DeckEditWin/"/>
+    <component id="on8al" name="SkillEditWin.xml" path="/Windows/ContentRelated/SkillEditWin/" exported="true"/>
+    <component id="on8am" name="SkillEditCont.xml" path="/Windows/ContentRelated/SkillEditWin/"/>
+    <component id="on8ap" name="TargetPlanEditWin.xml" path="/Windows/ContentRelated/TargetPlanEditWin/" exported="true"/>
+    <component id="on8aq" name="TargetPlanEditCont.xml" path="/Windows/ContentRelated/TargetPlanEditWin/"/>
+    <component id="on8az" name="AbilityEditWin.xml" path="/Windows/ContentRelated/AbilityEditWin/" exported="true"/>
+    <component id="on8a10" name="AbilityEditCont.xml" path="/Windows/ContentRelated/AbilityEditWin/"/>
+    <component id="on8a13" name="LocalizationEditWin.xml" path="/Windows/LocalizationEditWin/" exported="true"/>
+    <component id="on8a14" name="LocalizationEditCont.xml" path="/Windows/LocalizationEditWin/"/>
+    <component id="on8a15" name="BehaviorGraphWin.xml" path="/Windows/ContentRelated/BehaviorGraphWin/" exported="true"/>
+    <component id="on8a16" name="BehaviorGraphCont.xml" path="/Windows/ContentRelated/BehaviorGraphWin/"/>
+    <component id="on8a17" name="ValidationResultWin.xml" path="/Windows/ValidationResultWin/" exported="true"/>
+    <component id="on8a18" name="ValidationResultCont.xml" path="/Windows/ValidationResultWin/"/>
+    <component id="on8a19" name="PackagePublishWin.xml" path="/Windows/PackagePublishWin/" exported="true"/>
+    <component id="on8a1a" name="PackagePublishCont.xml" path="/Windows/PackagePublishWin/"/>
+    <component id="on8a1b" name="ModWorkspaceWin.xml" path="/Windows/ModWorkspaceWin/" exported="true"/>
+    <component id="on8a1c" name="ModWorkspaceCont.xml" path="/Windows/ModWorkspaceWin/"/>
+    <component id="ee8s1d" name="ComboBoxButton.xml" path="/Comps/"/>
+    <component id="ee8s1e" name="YesOrNoBox.xml" path="/Comps/"/>
+    <component id="c26g1f" name="LocalizationItem.xml" path="/Windows/LocalizationEditWin/"/>
+    <component id="msc01g" name="ResultItem.xml" path="/Windows/ValidationResultWin/"/>
+    <component id="msc01h" name="BehaviorPortLeft.xml" path="/Windows/ContentRelated/BehaviorGraphWin/"/>
+    <component id="msc01i" name="BehaviorPortRight.xml" path="/Windows/ContentRelated/BehaviorGraphWin/"/>
+    <component id="msc01j" name="GraphNode.xml" path="/Windows/ContentRelated/BehaviorGraphWin/" exported="true"/>
+    <component id="msc01k" name="CanvasGraphWrap.xml" path="/Windows/ContentRelated/BehaviorGraphWin/"/>
+    <component id="msc01l" name="Parameter.xml" path="/Windows/ContentRelated/BehaviorGraphWin/"/>
+    <component id="msc01m" name="Line.xml" path="/Windows/ContentRelated/BehaviorGraphWin/" exported="true"/>
+    <component id="q90d1n" name="SkillPoolEditWin.xml" path="/Windows/ContentRelated/SkillPoolEditWin/" exported="true"/>
+    <component id="q90d1o" name="SkillPoolEditCont.xml" path="/Windows/ContentRelated/SkillPoolEditWin/"/>
+    <component id="q90d1p" name="SkillPoolItem.xml" path="/Windows/ContentRelated/SkillPoolEditWin/"/>
+    <component id="q90d1q" name="CharacterEditWin.xml" path="/Windows/ContentRelated/CharacterEditWin/" exported="true"/>
+    <component id="q90d1r" name="CharacterEditCont.xml" path="/Windows/ContentRelated/CharacterEditWin/"/>
+    <component id="po4w1s" name="AbilityItem.xml" path="/Comps/"/>
+    <component id="po4w1t" name="JsonCont.xml" path="/Windows/ContentRelated/JsonWin/"/>
+    <component id="po4w1u" name="JsonWin.xml" path="/Windows/ContentRelated/JsonWin/" exported="true"/>
+    <component id="tmz91v" name="NodeOperationEditCont.xml" path="/Windows/ContentRelated/NodeOperationEditWin/"/>
+    <component id="tmz91w" name="NodeOperationEditWin.xml" path="/Windows/ContentRelated/NodeOperationEditWin/" exported="true"/>
+    <component id="tmz91x" name="NodeOperationItem.xml" path="/Windows/ContentRelated/NodeOperationEditWin/"/>
+    <component id="ndpb1y" name="ComboNewEdit.xml" path="/Windows/ContentRelated/AbilityEditWin/"/>
+    <component id="uk1t1z" name="CanvasGraph.xml" path="/Windows/ContentRelated/BehaviorGraphWin/"/>
+    <component id="xphn20" name="ManifestModItem.xml" path="/Windows/ManifestWin/"/>
+    <component id="130mm21" name="ComboBoxButtonAndTxt.xml" path="/Windows/ContentRelated/CharacterEditWin/"/>
+    <component id="ri2um22" name="ContentIDWin.xml" path="/Windows/ContentRelated/ContentIDWin/" exported="true"/>
+    <component id="ri2um23" name="TextItem.xml" path="/Windows/ContentRelated/ContentIDWin/"/>
+    <component id="100kbm24" name="Tag.xml" path="/Comps/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="86,61" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1627,81">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n7_on8a" name="n7" xy="139,199" size="1674,757" type="rect"/>
+    <text id="n8_on8a" name="txtDesc" xy="154,210" size="1643,731" fontSize="38" vars="true" autoSize="none" text="" input="true" prompt="json......"/>
+    <text id="n9_on8a" name="n203" xy="135,93" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="Json："/>
+    <component id="n21_on8a" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1414,80">
+      <Button title="保存"/>
+    </component>
+  </displayList>
+</component>

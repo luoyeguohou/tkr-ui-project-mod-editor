@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_g5ao" name="n0" xy="82,57" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <graph id="n39_nmwj" name="n39" xy="1036,506" size="767,243" type="rect"/>
+    <graph id="n1_g5ao" name="n1" xy="120,197" size="428,100" type="rect"/>
+    <text id="n2_g5ao" name="txtModID" xy="137,211" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="id:sjfhjakkj" input="true"/>
+    <graph id="n3_g5ao" name="n3" xy="1050,393" size="428,100" type="rect"/>
+    <text id="n4_g5ao" name="txtName" xy="1063,409" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="name i18n key....."/>
+    <text id="n6_g5ao" name="txtDesc" xy="1055,519" size="743,215" fontSize="38" vars="true" autoSize="none" text="" input="true" prompt="内容 i18n key......"/>
+    <text id="n8_g5ao" name="n21" xy="583,102" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="卡牌类型："/>
+    <component id="n10_g5ao" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1619,81">
+      <Button title="关闭"/>
+    </component>
+    <component id="n12_g5ao" name="comboCardType" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="841,105" size="355,61">
+      <ComboBox title="基本" visibleItemCount="10">
+        <item title="基本"/>
+        <item title="咒语"/>
+        <item title="装备-武器"/>
+        <item title="装备-防具"/>
+      </ComboBox>
+    </component>
+    <component id="n24_g5ao" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1392,89">
+      <Button title="保存"/>
+    </component>
+    <text id="n28_po4w" name="n28" xy="116,765" size="185,85" fontSize="38" vAlign="middle" autoSize="none" text="Ability："/>
+    <component id="n31_po4w" name="btnNewAbility" src="rvrn2" fileName="Comps/NormalButton.xml" xy="108,869">
+      <Button title="新建"/>
+    </component>
+    <list id="n33_po4w" name="lstAbility" xy="315,764" size="1469,238" overflow="scroll" defaultItem="ui://ovrc43jopo4w1s" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n34_ohbk" name="n200" xy="580,204" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="连接技能id："/>
+    <graph id="n35_ohbk" name="n35" xy="821,181" size="428,100" type="rect"/>
+    <text id="n36_ohbk" name="txtItemId" xy="836,195" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true"/>
+    <text id="n42_lnem" name="txtIDFront" xy="127,121" size="418,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <text id="n43_ri2u" name="n201" xy="1036,304" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="前置卡牌id："/>
+    <graph id="n45_ri2u" name="n46" xy="1291,287" size="428,100" type="rect"/>
+    <text id="n44_ri2u" name="txtPrerequisiteCardId" xy="1303,301" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true"/>
+    <list id="n46_100kb" name="lstTags" xy="289,364" size="284,300" overflow="scroll" defaultItem="ui://ovrc43jo100kbm24" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n47_100kb" name="n30" xy="110,368" size="152,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="Tag："/>
+    <component id="n48_100kb" name="btnNewTag" src="rvrn2" fileName="Comps/NormalButton.xml" xy="119,453" size="127,76">
+      <Button title="新建"/>
+    </component>
+  </displayList>
+</component>

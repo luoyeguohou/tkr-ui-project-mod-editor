@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="96,56" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_on8a" name="n21" xy="114,77" size="152,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="技能ID："/>
+    <graph id="n3_on8a" name="n3" xy="374,171" size="428,100" type="rect"/>
+    <text id="n4_on8a" name="txtName" xy="389,185" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="名字 i18n key......"/>
+    <text id="n6_on8a" name="n202" xy="117,186" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="名字文本ID："/>
+    <graph id="n7_on8a" name="n7" xy="112,373" size="942,267" type="rect"/>
+    <text id="n8_on8a" name="txtDesc" xy="124,391" size="917,230" fontSize="38" vars="true" autoSize="none" text="" input="true" prompt="内容 i18n key......"/>
+    <text id="n9_on8a" name="n203" xy="124,283" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="描述文本ID："/>
+    <component id="n21_on8a" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1415,80">
+      <Button title="保存"/>
+    </component>
+    <graph id="n22_ee8s" name="n22" xy="621,68" size="428,100" type="rect"/>
+    <text id="n23_ee8s" name="txtID" xy="633,81" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="输入 id......"/>
+    <text id="n26_po4w" name="n26" xy="152,670" size="185,85" fontSize="38" vAlign="middle" autoSize="none" text="Ability："/>
+    <component id="n27_po4w" name="btnNewAbility" src="rvrn2" fileName="Comps/NormalButton.xml" xy="132,774">
+      <Button title="新建"/>
+    </component>
+    <list id="n28_po4w" name="lstAbility" xy="350,663" size="1463,303" overflow="scroll" defaultItem="ui://ovrc43jopo4w1s" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n29_lnem" name="txtIDFront" xy="297,76" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <text id="n30_gkyf" name="n29" xy="842,184" size="152,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="是否显示："/>
+    <component id="n32_gkyf" name="btnVisible" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="1011,181"/>
+    <text id="n33_100kb" name="n33" xy="-238,-246" size="40,19" fontSize="12" text="" input="true"/>
+    <list id="n37_100kb" name="lstTags" xy="1406,279" size="284,300" overflow="scroll" defaultItem="ui://ovrc43jo100kbm24" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n38_100kb" name="n30" xy="1227,283" size="152,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="Tag："/>
+    <component id="n39_100kb" name="btnNewTag" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1236,368" size="127,76">
+      <Button title="新建"/>
+    </component>
+  </displayList>
+</component>

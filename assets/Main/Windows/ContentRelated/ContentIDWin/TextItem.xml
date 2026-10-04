@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="431,100">
+  <displayList>
+    <graph id="n3_ri2u" name="n3" xy="0,0" size="428,100" type="rect"/>
+    <text id="n2_ri2u" name="txtCont" xy="6,4" size="418,89" fontSize="34" vAlign="middle" autoSize="none" text="" input="true" prompt="input......"/>
+  </displayList>
+</component>

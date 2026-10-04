@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="264,88">
+  <displayList>
+    <graph id="n35_100kb" name="n35" xy="0,0" size="177,88" type="rect"/>
+    <text id="n34_100kb" name="txtTag" xy="8,9" size="162,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="输入 id......"/>
+    <component id="n36_100kb" name="btnDelete" src="rvrn2" fileName="Comps/NormalButton.xml" xy="181,4" size="83,76">
+      <Button title="删除"/>
+    </component>
+  </displayList>
+</component>

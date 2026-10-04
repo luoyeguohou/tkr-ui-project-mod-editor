@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2000,2000">
+  <displayList>
+    <graph id="n18_msc0" name="n18" xy="0,0" size="2000,2000" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

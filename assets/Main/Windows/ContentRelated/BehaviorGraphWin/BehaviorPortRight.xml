@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,38">
+  <displayList>
+    <text id="n5_msc0" name="txtTitle" xy="-58,4" pivot="1,0" size="121,29" fontSize="20" align="right" vAlign="middle" autoSize="shrink" text="noResponse"/>
+    <component id="n7_msc0" name="btnPort" src="rvrn2" fileName="Comps/NormalButton.xml" xy="67,5" size="28,28"/>
+  </displayList>
+</component>

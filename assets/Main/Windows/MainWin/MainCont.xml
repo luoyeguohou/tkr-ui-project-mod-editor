@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <component id="n0_g5ao" name="btnNewMod" src="rvrn2" fileName="Comps/NormalButton.xml" xy="520,919">
+      <Button title="新建mod"/>
+    </component>
+    <component id="n1_g5ao" name="btnOpenMod" src="rvrn2" fileName="Comps/NormalButton.xml" xy="744,919" size="201,76">
+      <Button title="打开Mod"/>
+    </component>
+    <component id="n2_g5ao" name="btnDuplicateMod" src="rvrn2" fileName="Comps/NormalButton.xml" xy="968,919" size="201,76">
+      <Button title="复制mod"/>
+    </component>
+    <component id="n3_g5ao" name="btnDeleteMod" src="rvrn2" fileName="Comps/NormalButton.xml" xy="296,919" size="201,76">
+      <Button title="删除mod"/>
+    </component>
+    <component id="n4_g5ao" name="btnImportPackage" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1192,919" size="201,76">
+      <Button title="导入mod"/>
+    </component>
+    <component id="n5_g5ao" name="btnExportPackage" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1416,919" size="201,76">
+      <Button title="导出mod"/>
+    </component>
+    <graph id="n8_g5ao" name="n8" xy="212,79" size="765,100" type="rect"/>
+    <text id="n9_g5ao" name="txtFilter" xy="236,92" size="707,73" fontSize="33" vAlign="middle" autoSize="none" text="" input="true" prompt="查找......"/>
+    <graph id="n10_g5ao" name="n10" xy="151,194" size="1662,695" type="rect" fillColor="#ffcccccc"/>
+    <list id="n12_g5ao" name="lstMod" xy="170,219" size="1616,652" overflow="scroll" lineGap="19" defaultItem="ui://ovrc43jog5ao5" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

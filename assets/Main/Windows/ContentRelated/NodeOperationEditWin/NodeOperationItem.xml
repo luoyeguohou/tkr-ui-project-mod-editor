@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="542,131">
+  <controller name="isParam" pages="1,,0," selected="0"/>
+  <displayList>
+    <graph id="n29_tmz9" name="n29" xy="0,0" size="194,67" type="rect" fillColor="#ffcccccc"/>
+    <text id="n28_tmz9" name="txtName" xy="1,7" size="190,54" fontSize="38" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="name....."/>
+    <component id="n30_tmz9" name="comboType" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="194,4" size="151,61">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n31_tmz9" name="btnDel" src="rvrn2" fileName="Comps/NormalButton.xml" xy="464,70" size="76,58">
+      <Button title="删除"/>
+    </component>
+    <component id="n32_nmwj" name="btnEnum" src="rvrn2" fileName="Comps/NormalButton.xml" xy="383,71" size="76,56">
+      <Button title="配置"/>
+    </component>
+    <text id="n35_nmwj" name="n35" xy="0,71" size="118,52" fontSize="28" vAlign="middle" autoSize="none" text="require:"/>
+    <text id="n36_nmwj" name="n36" xy="182,72" size="131,52" fontSize="28" vAlign="middle" autoSize="none" text="multiple:">
+      <gearDisplay controller="isParam" pages="1"/>
+    </text>
+    <component id="n37_nmwj" name="btnMultiple" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="307,66" size="73,64">
+      <gearDisplay controller="isParam" pages="1"/>
+    </component>
+    <component id="n33_nmwj" name="btnRequired" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="112,67" size="73,64"/>
+    <graph id="n39_exos" name="n39" xy="346,0" size="194,67" type="rect" fillColor="#ffcccccc"/>
+    <text id="n38_exos" name="txtDefVal" xy="348,8" size="190,54" fontSize="38" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="默认值....."/>
+  </displayList>
+</component>

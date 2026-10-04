@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1590,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <graph id="n11_g5ao" name="n11" xy="0,0" size="1590,100" type="rect" fillColor="#ffcccccc">
+      <gearColor controller="button" pages="1,3" values="#cccccc|#cccccc" default="#ffffff"/>
+    </graph>
+    <text id="n12_g5ao" name="txtID" xy="24,9" size="462,87" fontSize="33" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="id:{id=xingzhewukong}"/>
+    <text id="n13_g5ao" name="txtVersion" xy="503,7" size="266,87" fontSize="33" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="version:{version=v0.0.1}"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

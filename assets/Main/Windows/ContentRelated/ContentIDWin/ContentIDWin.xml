@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false">
+  <controller name="show" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n1_ri2u" name="btnShow" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="32,38"/>
+    <component id="n3_ri2u" name="input" src="ri2um23" fileName="Windows/ContentRelated/ContentIDWin/TextItem.xml" xy="25,123" size="424,100">
+      <gearDisplay controller="show" pages="1"/>
+    </component>
+    <list id="n4_ri2u" name="lstItems" xy="20,232" size="422,828" overflow="scroll" defaultItem="ui://ovrc43jori2um23">
+      <gearDisplay controller="show" pages="1"/>
+    </list>
+  </displayList>
+</component>

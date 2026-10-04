@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="496,100">
+  <controller name="type" pages="0,enum,1,val,2,bool" selected="1"/>
+  <displayList>
+    <text id="n19_msc0" name="txtTitle" xy="0,13" size="94,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID：">
+      <gearSize controller="type" pages="1,2" values="94,71,1,1|224,71,1,1" default="101,71,1,1"/>
+    </text>
+    <graph id="n20_msc0" name="n20" xy="96,0" size="397,100" type="rect">
+      <gearDisplay controller="type" pages="1"/>
+    </graph>
+    <text id="n21_msc0" name="txtVal" xy="96,14" size="392,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="val.....">
+      <gearDisplay controller="type" pages="1"/>
+    </text>
+    <component id="n22_xdwp" name="combo" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="102,17" size="387,61">
+      <gearDisplay controller="type" pages="0"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n23_exos" name="btnBool" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="229,10">
+      <gearDisplay controller="type" pages="2"/>
+    </component>
+  </displayList>
+</component>

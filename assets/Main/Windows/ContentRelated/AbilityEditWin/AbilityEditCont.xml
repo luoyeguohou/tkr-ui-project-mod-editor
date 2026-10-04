@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="showForce" pages="0,,1," selected="1"/>
+  <controller name="showOnRequire" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="15,41" size="1896,1024" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1700,61" size="201,43">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n2_c26g" name="n2" xy="278,63" size="617,100" type="rect"/>
+    <text id="n3_c26g" name="txtID" xy="600,74" size="271,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="ID......"/>
+    <text id="n4_c26g" name="n20" xy="32,78" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <text id="n5_c26g" name="n21" xy="45,216" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="触发时机："/>
+    <component id="n6_c26g" name="comboTiming" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="294,215" size="340,72">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n7_c26g" name="btnForced" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="1771,199">
+      <gearDisplay controller="showForce" pages="1"/>
+    </component>
+    <text id="n8_c26g" name="n211" xy="1514,207" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="强制触发：">
+      <gearDisplay controller="showForce" pages="1"/>
+    </text>
+    <text id="n12_c26g" name="n213" xy="86,345" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="触发条件："/>
+    <component id="n22_c26g" name="btnNewConfitionGraph" src="rvrn2" fileName="Comps/NormalButton.xml" xy="36,425" size="159,61">
+      <Button title="新建"/>
+    </component>
+    <component id="n35_c26g" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1708,119" size="182,57">
+      <Button title="保存"/>
+    </component>
+    <text id="n41_tmz9" name="n2121" xy="1002,211" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="牌id filter：">
+      <gearDisplay controller="showOnRequire" pages="1"/>
+    </text>
+    <graph id="n42_tmz9" name="n421" xy="1247,194" size="261,100" type="rect">
+      <gearDisplay controller="showOnRequire" pages="1"/>
+    </graph>
+    <text id="n43_tmz9" name="txtRequiredCardId" xy="1263,209" size="236,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="输入牌id......">
+      <gearDisplay controller="showOnRequire" pages="1"/>
+    </text>
+    <list id="n45_8q9c" name="lstConditions" xy="379,293" size="1458,197" overflow="scroll" lineGap="6" defaultItem="ui://ovrc43jopo4w1s" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n46_8q9c" name="btnAddConfitionGraph" src="rvrn2" fileName="Comps/NormalButton.xml" xy="204,424" size="159,61">
+      <Button title="添加"/>
+    </component>
+    <component id="n47_ndpb" name="targetPlan" src="ndpb1y" fileName="Windows/ContentRelated/AbilityEditWin/ComboNewEdit.xml" xy="93,497">
+      <Button title="选目标规则："/>
+    </component>
+    <graph id="n50_ndpb" name="n50" xy="641,224" size="351,58" type="rect"/>
+    <text id="n51_ndpb" name="txtTimingFilter" xy="646,227" size="343,52" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="Filter......"/>
+    <list id="n52_exos" name="lstTargetConditions" xy="339,586" size="1456,212" overflow="scroll" lineGap="6" defaultItem="ui://ovrc43jopo4w1s" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n53_exos" name="n2131" xy="83,589" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="选目标条件："/>
+    <component id="n54_exos" name="btnAddTargetConfitionGraph" src="rvrn2" fileName="Comps/NormalButton.xml" xy="114,669" size="159,61">
+      <Button title="添加"/>
+    </component>
+    <component id="n55_exos" name="btnNewTargetConfitionGraph" src="rvrn2" fileName="Comps/NormalButton.xml" xy="110,741" size="159,61">
+      <Button title="新建"/>
+    </component>
+    <text id="n57_lnem" name="txtIDFront" xy="301,76" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <text id="n58_k893" name="n2132" xy="69,821" size="237,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="效果："/>
+    <list id="n59_k893" name="lstEffects" xy="327,813" size="1456,212" overflow="scroll" lineGap="6" defaultItem="ui://ovrc43jopo4w1s" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n60_k893" name="btnAddEffect" src="rvrn2" fileName="Comps/NormalButton.xml" xy="114,908" size="159,61">
+      <Button title="添加"/>
+    </component>
+    <component id="n61_k893" name="btnNewEffect" src="rvrn2" fileName="Comps/NormalButton.xml" xy="111,981" size="159,61">
+      <Button title="新建"/>
+    </component>
+    <component id="n62_l2eh" name="comboPlayWayName" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="1127,52">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n63_l2eh" name="n23" xy="911,50" size="204,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="打出名称："/>
+    <text id="n64_l2eh" name="n22" xy="910,119" size="204,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="从哪里打出："/>
+    <component id="n65_l2eh" name="comboSource" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="1123,128">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <graph id="n66_l2eh" name="n25" xy="1439,122" size="261,59" type="rect"/>
+    <text id="n67_l2eh" name="txtSourceVoidKey" xy="1448,126" size="236,52" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="输入虚空区id......"/>
+    <text id="n68_l2eh" name="n24" xy="1304,111" size="126,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="key："/>
+    <text id="n69_oba4" name="n26" xy="1427,47" size="152,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="是否展示："/>
+    <component id="n70_oba4" name="btnShowAnimation" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="1593,45"/>
+  </displayList>
+</component>

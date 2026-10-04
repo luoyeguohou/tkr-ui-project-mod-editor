@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="557,76">
+  <displayList>
+    <graph id="n25_xphn" name="n25" xy="0,4" size="344,70" type="rect"/>
+    <text id="n26_xphn" name="txtMod" xy="14,16" size="315,52" fontSize="31" vAlign="middle" autoSize="none" text="" input="true" prompt="作者.id(roy.core)...&#xA;"/>
+    <component id="n27_xphn" name="btnDelete" src="rvrn2" fileName="Comps/NormalButton.xml" xy="356,0">
+      <Button title="删除"/>
+    </component>
+  </displayList>
+</component>

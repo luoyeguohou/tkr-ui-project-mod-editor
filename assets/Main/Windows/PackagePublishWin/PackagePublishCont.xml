@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="104,43" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_msc0" name="txtVersion" xy="172,96" size="939,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="Version:{version=v0.0.1}"/>
+    <component id="n3_msc0" name="btnValidate" src="rvrn2" fileName="Comps/NormalButton.xml" xy="189,228" size="662,76">
+      <Button title="打包前检查一遍"/>
+    </component>
+    <text id="n4_msc0" name="txtValidateSummary" xy="195,343" size="939,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="没有发现错误，可以打包"/>
+    <component id="n5_msc0" name="btnBuildPackage" src="rvrn2" fileName="Comps/NormalButton.xml" xy="197,473" size="662,76">
+      <Button title="构建.tkrmod安装包"/>
+    </component>
+    <text id="n6_msc0" name="txtOutputPath" xy="188,584" size="939,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="已生成：acme.my_mod-0.1.0.tkrmod"/>
+    <component id="n7_msc0" name="btnOpenOutputFolder" src="rvrn2" fileName="Comps/NormalButton.xml" xy="193,698" size="662,76">
+      <Button title="在文件夹里定位这个文件"/>
+    </component>
+  </displayList>
+</component>

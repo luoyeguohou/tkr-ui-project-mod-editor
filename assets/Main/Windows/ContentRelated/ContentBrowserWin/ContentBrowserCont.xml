@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_g5ao" name="n0" xy="90,61" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_g5ao" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1619,78">
+      <Button title="关闭"/>
+    </component>
+    <component id="n2_g5ao" name="btnNew" src="rvrn2" fileName="Comps/NormalButton.xml" xy="145,117">
+      <Button title="新建"/>
+    </component>
+    <graph id="n3_g5ao" name="n3" xy="813,101" size="398,100" type="rect"/>
+    <text id="n4_g5ao" name="txtModID" xy="825,115" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="Filter......"/>
+    <list id="n6_g5ao" name="lstFilter" xy="138,230" size="1461,93" layout="row" overflow="scroll" scroll="horizontal" colGap="13" defaultItem="ui://ovrc43jog5aog" autoItemSize="false" vAlign="middle">
+      <item title="全部"/>
+      <item title="卡牌"/>
+      <item title="技能"/>
+      <item title="道具"/>
+      <item title="行为图"/>
+      <item title="能力"/>
+    </list>
+    <list id="n10_g5ao" name="lstItems" xy="140,335" size="1455,650" overflow="scroll" lineGap="4" defaultItem="ui://ovrc43jog5aoh" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_g5ao" name="btnEdit" src="rvrn2" fileName="Comps/NormalButton.xml" xy="363,116">
+      <Button title="编辑"/>
+    </component>
+    <component id="n12_g5ao" name="btnDelete" src="rvrn2" fileName="Comps/NormalButton.xml" xy="589,116">
+      <Button title="删除"/>
+    </component>
+    <component id="n13_po4w" name="btnJson" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="1488,108"/>
+    <text id="n15_po4w" name="n15" xy="1262,112" size="213,71" fontSize="38" vAlign="middle" autoSize="none" text="编辑json："/>
+  </displayList>
+</component>

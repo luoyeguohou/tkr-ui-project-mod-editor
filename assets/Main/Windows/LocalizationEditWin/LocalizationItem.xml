@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1594,100">
+  <displayList>
+    <graph id="n17_c26g" name="n17" xy="540,0" size="1054,100" type="rect"/>
+    <text id="n18_c26g" name="txtCont" xy="556,15" size="1009,71" fontSize="38" vAlign="middle" autoSize="none" text="补给" input="true" prompt="输入文本......"/>
+    <text id="n19_c26g" name="txtID" xy="0,10" size="527,74" fontSize="38" align="center" vAlign="middle" autoSize="shrink" text="acme.card.supply.name"/>
+  </displayList>
+</component>

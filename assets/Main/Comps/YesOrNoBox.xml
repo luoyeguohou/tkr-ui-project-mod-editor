@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,76">
+  <controller name="ctrlYesOrNo" pages="4,no,5,yes" selected="0"/>
+  <displayList>
+    <component id="n4_ee8s" name="n4" src="rvrn2" fileName="Comps/NormalButton.xml" xy="0,0" size="95,76">
+      <gearDisplay controller="ctrlYesOrNo" pages="5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="yes" controller="ctrlYesOrNo" page="4"/>
+    </component>
+    <component id="n5_ee8s" name="n5" src="rvrn2" fileName="Comps/NormalButton.xml" xy="0,0" size="95,76">
+      <gearDisplay controller="ctrlYesOrNo" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="no" controller="ctrlYesOrNo" page="5"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="86,61" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1629,68">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_on8a" name="n21" xy="106,95" size="230,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="技能池ID："/>
+    <component id="n21_on8a" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1405,70">
+      <Button title="保存"/>
+    </component>
+    <graph id="n22_ee8s" name="n22" xy="352,82" size="758,100" type="rect"/>
+    <text id="n23_ee8s" name="txtID" xy="672,95" size="411,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="输入 id......"/>
+    <component id="n26_q90d" name="btnAdd" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1137,85">
+      <Button title="增加"/>
+    </component>
+    <list id="n34_q90d" name="lstSkills" xy="178,205" size="1575,775" overflow="scroll" lineGap="9" defaultItem="ui://ovrc43joq90d1p" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n35_lnem" name="txtIDFront" xy="372,94" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+  </displayList>
+</component>

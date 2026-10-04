@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_g5ao" name="n0" xy="124,61" size="1748,957" type="rect" fillColor="#ffcccccc"/>
+    <component id="n1_g5ao" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1634,85">
+      <Button title="关闭"/>
+    </component>
+    <text id="n2_g5ao" name="n21" xy="184,97" size="172,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="牌堆ID："/>
+    <graph id="n3_g5ao" name="n3" xy="670,83" size="428,100" type="rect"/>
+    <text id="n4_g5ao" name="txtName" xy="681,98" size="398,71" fontSize="38" vAlign="middle" vars="true" autoSize="none" singleLine="true" text="" input="true" prompt="deck id....."/>
+    <list id="n12_g5ao" name="lstDeck" xy="237,222" size="1526,645" overflow="scroll" lineGap="4" defaultItem="ui://ovrc43jog5aok" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_g5ao" name="btnAdd" src="rvrn2" fileName="Comps/NormalButton.xml" xy="775,907">
+      <Button title="增加"/>
+    </component>
+    <component id="n14_g5ao" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1016,908">
+      <Button title="保存"/>
+    </component>
+    <text id="n15_lnem" name="txtIDFront" xy="379,99" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+  </displayList>
+</component>

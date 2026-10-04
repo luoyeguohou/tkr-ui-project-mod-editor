@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="isConfigingEnum" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="19,61" size="1879,957" type="rect" fillColor="#ffcccccc"/>
+    <graph id="n24_tmz9" name="n24" xy="23,193" size="1834,757" type="rect"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1627,81">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n7_on8a" name="n7" xy="1015,214" size="689,67" type="rect" fillColor="#ffcccccc"/>
+    <text id="n8_on8a" name="txtID" xy="1020,222" size="678,54" fontSize="38" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="id......"/>
+    <text id="n9_on8a" name="n203" xy="553,213" size="115,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <component id="n21_on8a" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1418,80">
+      <Button title="保存"/>
+    </component>
+    <component id="n25_tmz9" name="btnNewIn" src="rvrn2" fileName="Comps/NormalButton.xml" xy="224,323" size="186,76">
+      <Button title="增加in"/>
+    </component>
+    <component id="n26_tmz9" name="btnNewParam" src="rvrn2" fileName="Comps/NormalButton.xml" xy="878,322" size="186,76">
+      <Button title="增加参数"/>
+    </component>
+    <component id="n27_tmz9" name="btnNewOut" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1446,312" size="186,76">
+      <Button title="增加out"/>
+    </component>
+    <list id="n32_tmz9" name="lstIn" xy="35,421" size="595,514" overflow="scroll" defaultItem="ui://ovrc43jotmz91x" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n33_tmz9" name="lstParam" xy="644,419" size="603,514" overflow="scroll" defaultItem="ui://ovrc43jotmz91x" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n34_tmz9" name="lstOut" xy="1253,419" size="596,514" overflow="scroll" defaultItem="ui://ovrc43jotmz91x" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n35_nmwj" name="n35" xy="522,309" size="820,605" type="rect" lineSize="5">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+    </graph>
+    <graph id="n36_nmwj" name="n36" xy="584,329" size="689,346" type="rect" fillColor="#ffcccccc">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+    </graph>
+    <text id="n37_nmwj" name="txtEnum" xy="586,338" size="677,322" fontSize="38" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="格式：[aaa（默认值）,bbb,ccc].......">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+    </text>
+    <component id="n38_nmwj" name="btnComfirm" src="rvrn2" fileName="Comps/NormalButton.xml" xy="829,821">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+      <Button title="保存" controller="isConfigingEnum" page="0"/>
+    </component>
+    <graph id="n41_exos" name="n41" xy="583,688" size="689,106" type="rect" fillColor="#ffcccccc">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+    </graph>
+    <text id="n39_exos" name="txtVisibleKey" xy="592,699" size="215,83" fontSize="38" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="显示字段.....">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+    </text>
+    <text id="n42_exos" name="txtVisibleValues" xy="819,698" size="443,83" fontSize="38" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="显示字段值.....">
+      <gearDisplay controller="isConfigingEnum" pages="1"/>
+    </text>
+    <text id="n43_lnem" name="txtIDFront" xy="716,209" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+  </displayList>
+</component>

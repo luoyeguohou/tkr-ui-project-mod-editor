@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="refGraph" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n0_on8a" name="n0" xy="4,17" size="1916,1059" type="rect" fillColor="#ffcccccc"/>
+    <graph id="n31_uk1t" name="n31" xy="404,52" size="1010,1010" type="rect" lineSize="10"/>
+    <component id="n1_on8a" name="btnClose" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1811,22" size="108,76">
+      <Button title="关闭"/>
+    </component>
+    <text id="n10_msc0" name="n21" xy="16,29" size="75,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <graph id="n11_msc0" name="n11" xy="14,104" size="371,95" type="rect"/>
+    <text id="n12_msc0" name="txtName" xy="20,108" size="360,93" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="id....."/>
+    <text id="n15_msc0" name="n1" xy="17,206" size="109,66" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="类型："/>
+    <component id="n16_msc0" name="btnSave" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1707,19" size="85,76">
+      <Button title="保存"/>
+    </component>
+    <list id="n17_msc0" name="lstNodeOperations" xy="11,468" size="382,607" overflow="scroll" lineGap="14" defaultItem="ui://ovrc43jorvrn2">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_msc0" name="canvasGraph" src="msc01k" fileName="Windows/ContentRelated/BehaviorGraphWin/CanvasGraphWrap.xml" xy="404,52" size="1000,1000"/>
+    <list id="n22_msc0" name="lstParameters" xy="1419,115" size="497,860" overflow="scroll" lineGap="13" defaultItem="ui://ovrc43jomsc01l" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n23_msc0" name="btnDeleteNode" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1460,989">
+      <Button title="删除选中节点"/>
+    </component>
+    <component id="n25_msc0" name="btnSetEntryNode" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1691,989">
+      <Button title="设置为入口"/>
+    </component>
+    <component id="n26_j5f4" name="comboGraphType" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="131,201" size="166,76">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <graph id="n27_dpr4" name="n27" xy="9,362" size="398,100" type="rect"/>
+    <text id="n28_dpr4" name="txtFilter" xy="18,375" size="362,71" fontSize="38" vAlign="middle" autoSize="none" text="" input="true" prompt="Filter......"/>
+    <component id="n29_uk1t" name="btnScaleHigh" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1463,24" size="86,76">
+      <Button title="+"/>
+    </component>
+    <component id="n30_uk1t" name="btnScaleLow" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1562,22" size="86,76">
+      <Button title="-"/>
+    </component>
+    <text id="n32_lnem" name="txtIDFront" xy="102,30" size="286,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="ID："/>
+    <text id="n33_hpes" name="n33" xy="15,289" size="109,66" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="纯值：">
+      <gearDisplay controller="refGraph" pages="1"/>
+    </text>
+    <component id="n34_hpes" name="btnPureValue" src="ee8s1e" fileName="Comps/YesOrNoBox.xml" xy="139,282">
+      <gearDisplay controller="refGraph" pages="1"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1381,135">
+  <displayList>
+    <graph id="n28_q90d" name="n28" xy="0,0" size="1381,135" type="rect" fillColor="#ff666666"/>
+    <component id="n29_q90d" name="comboSkill" src="g5aoe" fileName="Comps/ComboBox1.xml" xy="13,17" size="498,94">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <graph id="n31_q90d" name="n31" xy="526,16" size="249,100" type="rect"/>
+    <text id="n30_q90d" name="txtWeight" xy="540,33" size="223,71" fontSize="38" vAlign="middle" vars="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="输入 weight......"/>
+    <component id="n27_q90d" name="btnDelete" src="rvrn2" fileName="Comps/NormalButton.xml" xy="1077,28">
+      <Button title="删除"/>
+    </component>
+  </displayList>
+</component>
