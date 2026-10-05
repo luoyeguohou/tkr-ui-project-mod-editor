@@ -64,6 +64,7 @@
     <component id="ri2um22" name="ContentIDWin.xml" path="/Windows/ContentRelated/ContentIDWin/" exported="true"/>
     <component id="ri2um23" name="TextItem.xml" path="/Windows/ContentRelated/ContentIDWin/"/>
     <component id="100kbm24" name="Tag.xml" path="/Comps/"/>
+    <component id="nadcbm25" name="ContentButton.xml" path="/Windows/ContentRelated/ContentBrowserWin/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
